@@ -1,0 +1,78 @@
+<!doctype HTML>
+<html>
+<head>
+<title>
+Template
+</title>
+<style>
+ul {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	top: 0;
+}
+#logo {
+	height: 200px;
+}
+
+li {
+	float: left;
+	width: 25%;
+	
+}
+li.top {
+	position:relative;
+}
+li a.top {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+}
+@keyframes hovering {
+	0% {}
+	100% {transform: translateX(-15%);}
+}
+li.top:hover {
+	animation: hovering 0.05s;
+	animation-fill-mode: forwards;
+}
+li.topcurrent {
+	transform: translateX(-15%);
+}
+a.sub {
+display: block;padding: 10px;background-color: #222222;font-family: verdana, helvetica, sans-serif;font-size: .8em;color: #FFFFFF;text-align: center;font-weight: bold;text-decoration: none;
+}
+a.sub:hover {
+background-color: #FFF;color: #222;
+}
+p {
+	font-family: Verdana, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+<section style="width:100%; position:sticky; background-color:white;">
+<ul>
+<li> <a class="top"><img id="logo" src="newlogo.png"> </a> </li>
+<li class="topcurrent"> <a class="top"><img id="logo" src="homeblade.png"></a> </li>
+<li class="top"> <a class="top"><img id="logo" src="productblade.png"> </a> </li>
+<li class="top"> <a class="top"><img id="logo" src="aboutusblade.png"> </a> </li>
+
+</ul>
+<ul style="height:5%">
+	<li> <a class="sub">PAGE 1 </a> </li>
+	<li> <a class="sub">PAGE 2 </a> </li>
+	<li> <a class="sub">PAGE 3 </a> </li>
+	<li> <a class="sub">PAGE 4 </a> </li>
+	
+</ul>
+</section>
+<div style="background-color:#9F9F9F; width:75%; margin:auto;">
+<p> test </p>
+</div>
+</body>
+</html>
