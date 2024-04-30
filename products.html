@@ -77,8 +77,11 @@ div {
 #vroom {
 	animation: vroom 2s 1;
 }
-html, body, div {
+html, body,
+{
 	height: 100%;
+}
+div {
 	overflow: hidden;
 }
 </style>
@@ -103,7 +106,7 @@ html, body, div {
 <div style="background: linear-gradient(90deg, #111, #444, #111);">
 <div id="background">
 <div id="vroom" style="width:70%; padding-bottom: 20px; color: white;">
-<div style="padding-top: 5px; padding-left: 20px; padding-right: 20px;">
+<div id="content" style="padding-top: 5px; padding-left: 20px; padding-right: 20px;">
 <h1 width="100%" style="border-bottom-style: solid;">Products</h1>
 
 <p>Currently, CDS only has one product, the CD-1, but we plan to change that soon. We have 2 products currently in development.</p>
@@ -111,6 +114,8 @@ html, body, div {
 <p>The CD-1 is the greatest innovationon the automotive industry since the first car. All controls of a regular car have been condensed into an ergonomic controller that fits easily into the hands. Inspired by racing games, the button mapping has been preset to provide a comfortable driving experience, but if the user wishes to they may remap the controls easily. </p> <br> 
 <p>Our product has been tested to the highest safety standards, and <span style="color:#333;"> after rounding the score to the nearest hundred </span> we are glad to say our vehicle has a 100% safety rating. Customers can expect only the smoothest driving experience, with heightened reaction time thanks to the placement of the controls.</p>
 
+</div>
+</div>
 
 
 </body>
